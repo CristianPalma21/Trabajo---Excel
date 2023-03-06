@@ -1,0 +1,26 @@
+table, th, td {border: 3px solid black;
+    border-collapse: collapse;
+    padding: 7px;
+    font-size: 15px;
+    }
+
+    caption {
+        color:  teal;
+        font-family: "Times New Roman";
+        text-align: center;
+        font-size: 25px;
+    }
+
+    tr:nth-child(odd){
+        background-color: salmon;
+        color: black;
+    }
+
+    tr:nth-child(even){ 
+        background-color: gray;
+        color: black;
+    }
+
+    body {
+        background-color: yellowgreen;
+    }
